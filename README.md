@@ -1,6 +1,6 @@
 # 跑团简易信息界面
 
-A little tool for COC TRPG game's kp. 
+> A little tool for COC-Trpg's kp. 
 
 一个自己带团时为了方便而编的一个小玩意，简而言之就是把 **日期、星期几、时间、NPC立绘、场景** 集成在一个屏幕区域内。使用时在电脑端运行 *main.py*，再利用 拓展屏 or 手机平板上的远程控制软件 将其展示给其他玩家。
 
