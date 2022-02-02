@@ -46,7 +46,7 @@ class Demo(QWidget, Ui_TRPGsurface): # 双继承
         self.add3hour.clicked.connect(lambda: self.time_change(3,0))
         self.add1hour.clicked.connect(lambda: self.time_change(1,0))
         self.minus1hour.clicked.connect(lambda: self.time_change(-1,0))
-        self.minus3hour.clicked.connect(lambda: self.time_change(-1,0))
+        self.minus3hour.clicked.connect(lambda: self.time_change(-3,0))
         self.add10min.clicked.connect(lambda: self.time_change(10,1))
         self.add5min.clicked.connect(lambda: self.time_change(5,1))
         self.minus5min.clicked.connect(lambda: self.time_change(-5,1))
