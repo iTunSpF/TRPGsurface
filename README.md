@@ -1,4 +1,4 @@
-# TRPGsurface
+# 跑团简易信息界面
 
 A little tool for COC TRPG game's kp. 
 
