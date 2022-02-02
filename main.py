@@ -1,4 +1,4 @@
-import sys, cv2, os
+import sys, os
 import numpy as np
 from img_view import IMG_WIN
 from TRPGsurface import Ui_TRPGsurface   # Ui_TRPGsurface 是 QtDesigner 导出的 py 文件中的 object 子类
@@ -6,20 +6,11 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtCore import QDate, pyqtSlot, Qt
 from PyQt5.QtWidgets import QApplication, QWidget, QFileDialog, QGraphicsPixmapItem, QGraphicsScene
 from PyQt5.QtGui import QImage, QPixmap
-import ctypes
-
-try:
-    temp=ctypes.windll.LoadLibrary( 'opencv_ffmpeg341_64.dll' )
-except:
-    pass
-
-    
 
 _translate = QtCore.QCoreApplication.translate  
 image_type = ['jpg','png','jpeg']
 
-
-class Demo(QWidget, Ui_TRPGsurface): # 双继承
+class Demo(QWidget, Ui_TRPGsurface): 
     def __init__(self):
         super(Demo, self).__init__()
         
